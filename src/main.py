@@ -31,6 +31,7 @@ if __name__ == '__main__':
     # Binarisation de l'image et affichage
     #==============================================================================
     S = 70
+    
     image_binarisee = image.binarisation(S)
     image_binarisee.display("Image binarisee")
 
